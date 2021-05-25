@@ -37,7 +37,7 @@ const CartSidebarView: FC = () => {
         [s.empty]: error || success || isLoading || isEmpty,
       })}
     >
-      <header className="px-4 pt-6 pb-4 sm:px-6">
+      <header className="px-6 pt-6 pb-4 sm:px-6">
         <div className="flex items-start justify-between space-x-3">
           <div className="h-7 flex items-center">
             <button
